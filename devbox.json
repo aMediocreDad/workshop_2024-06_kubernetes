@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
+  "packages": [
+    "minikube@latest",
+    "kubectl@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!'"
+    ],
+    "scripts": {
+      "start": [
+        "minikube start"
+      ],
+      "stop": [
+        "minikube stop"
+      ]
+    }
+  }
+}
