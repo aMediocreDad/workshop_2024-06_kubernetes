@@ -3,5 +3,4 @@ kind: ConfigMap
 metadata:
   name: app-config
 data:
-  db_url: db-service
   db_usr: postgres

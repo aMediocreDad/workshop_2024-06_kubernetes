@@ -18,7 +18,7 @@ spec:
         - name: db
           image: postgres
           ports:
-            - containerPort: 8080
+            - containerPort: 5432
           env:
             - name: POSTGRES_USER
               valueFrom:
@@ -40,5 +40,5 @@ spec:
     app.kubernetes.io/name: db
   ports:
     - protocol: TCP
-      port: 8080
-      targetPort: 8080
+      port: 5432
+      targetPort: 5432
