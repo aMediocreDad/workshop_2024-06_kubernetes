@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
   "packages": [
+    "bun@latest",
     "minikube@latest",
     "kubectl@latest"
   ],
@@ -9,6 +10,9 @@
       "echo 'Welcome to devbox!'"
     ],
     "scripts": {
+      "app": [
+        "bun run --hot app/src/index.ts"
+      ],
       "start": [
         "minikube start"
       ],
