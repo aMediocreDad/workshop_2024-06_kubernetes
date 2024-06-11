@@ -20,6 +20,23 @@ spec:
           imagePullPolicy: Never
           ports:
             - containerPort: 8000
+          env:
+            - name: PGUSERNAME
+              valueFrom:
+                configMapKeyRef:
+                  name: app-config
+                  key: db_usr
+            - name: PGDATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: app-config
+                  # PostgreSQL default database is the same as the default user
+                  key: db_usr
+            - name: PGPASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: db-secrets
+                  key: passwd
 ---
 apiVersion: v1
 kind: Service

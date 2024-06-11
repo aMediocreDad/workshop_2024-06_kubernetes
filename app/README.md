@@ -3,7 +3,9 @@
 ## To run
 
 ```sh
-deno serve --watch main.ts
+# Allow (E)nvironemnt (S)ystem (N)et
+deno serve -E -S -N --watch main.ts
 ```
 
-open <http://localhost:8000/items/1>
+POST http://localhost:8000/items
+GET http://localhost:8000/items/1

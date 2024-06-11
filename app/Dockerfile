@@ -6,4 +6,4 @@ COPY . .
 
 RUN deno cache main.ts
 
-CMD ["deno", "run", "--allow-net", "main.ts"]
+CMD ["deno", "run", "-E", "-S", "-N", "main.ts"]

@@ -11,7 +11,7 @@
     ],
     "scripts": {
       "app": [
-        "deno serve --watch main.ts"
+        "deno serve -E -S -N --watch main.ts"
       ],
       "start": [
         "minikube start"
