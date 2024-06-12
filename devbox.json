@@ -1,9 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
   "packages": [
+    "argocd@latest",
     "bun@latest",
+    "kubernetes-helm@latest",
+    "kubectl@latest",
     "minikube@latest",
-    "kubectl@latest"
+    "terraform@latest"
   ],
   "shell": {
     "init_hook": [

@@ -1,6 +1,54 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "argocd@latest": {
+      "last_modified": "2024-06-07T15:28:25Z",
+      "resolved": "github:NixOS/nixpkgs/d226935fd75012939397c83f6c385e4d6d832288#argocd",
+      "source": "devbox-search",
+      "version": "2.11.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nzhs3gydac4pwkcggzzlsf0gibdlcdkk-argocd-2.11.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nzhs3gydac4pwkcggzzlsf0gibdlcdkk-argocd-2.11.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j93a17vz7vac0fpl8zm2bwp9lfx890nw-argocd-2.11.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j93a17vz7vac0fpl8zm2bwp9lfx890nw-argocd-2.11.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/203j91w1yf1klfzf7kf20535v0vyvvw7-argocd-2.11.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/203j91w1yf1klfzf7kf20535v0vyvvw7-argocd-2.11.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m7sld5invy2h34c4dm81g8x017xfh1jx-argocd-2.11.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m7sld5invy2h34c4dm81g8x017xfh1jx-argocd-2.11.3"
+        }
+      }
+    },
     "bun@latest": {
       "last_modified": "2024-06-03T07:19:07Z",
       "resolved": "github:NixOS/nixpkgs/4a4ecb0ab415c9fccfb005567a215e6a9564cdf5#bun",
@@ -133,6 +181,54 @@
         }
       }
     },
+    "kubernetes-helm@latest": {
+      "last_modified": "2024-05-29T10:04:41Z",
+      "resolved": "github:NixOS/nixpkgs/ac82a513e55582291805d6f09d35b6d8b60637a1#kubernetes-helm",
+      "source": "devbox-search",
+      "version": "3.15.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nipci6fqwxvyz3bcq63mz4svi5bvcpb6-kubernetes-helm-3.15.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nipci6fqwxvyz3bcq63mz4svi5bvcpb6-kubernetes-helm-3.15.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/axp4ixbbbxhg8f630cj6rvxjdjbx99pw-kubernetes-helm-3.15.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/axp4ixbbbxhg8f630cj6rvxjdjbx99pw-kubernetes-helm-3.15.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rvdcn0nsid05i4ardmvgn38bd1fkk9rw-kubernetes-helm-3.15.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rvdcn0nsid05i4ardmvgn38bd1fkk9rw-kubernetes-helm-3.15.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i24nairmnj41aq4w6x7fp8wjrcd15i13-kubernetes-helm-3.15.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/i24nairmnj41aq4w6x7fp8wjrcd15i13-kubernetes-helm-3.15.1"
+        }
+      }
+    },
     "minikube@latest": {
       "last_modified": "2024-05-29T10:04:41Z",
       "resolved": "github:NixOS/nixpkgs/ac82a513e55582291805d6f09d35b6d8b60637a1#minikube",
@@ -178,6 +274,54 @@
             }
           ],
           "store_path": "/nix/store/zf9zr2n0zwk2qs61y03n69svjxcfcbbr-minikube-1.33.1"
+        }
+      }
+    },
+    "terraform@latest": {
+      "last_modified": "2024-06-06T04:00:50Z",
+      "resolved": "github:NixOS/nixpkgs/818dbe2f96df233d2041739d6079bb616d3e5597#terraform",
+      "source": "devbox-search",
+      "version": "1.8.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s12yw55srj27wmcsf9f83m4ylacgbm0k-terraform-1.8.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/s12yw55srj27wmcsf9f83m4ylacgbm0k-terraform-1.8.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v7dicc9h5dib6qdcx9yq9grnrn4rpkd4-terraform-1.8.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/v7dicc9h5dib6qdcx9yq9grnrn4rpkd4-terraform-1.8.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b6018xyv2ab4x5vc75d388vsjp59d9gi-terraform-1.8.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b6018xyv2ab4x5vc75d388vsjp59d9gi-terraform-1.8.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1qgg778clk78mh720nkblqhk3wcp04in-terraform-1.8.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1qgg778clk78mh720nkblqhk3wcp04in-terraform-1.8.5"
         }
       }
     }
