@@ -3,11 +3,7 @@ import { env } from "bun"
 import postgres from "postgres"
 import prexit from 'prexit'
 
-const { DB_SERVICE_SERVICE_HOST = "", DB_SERIVCE_SERVICE_PORT = "" } = env
-
-const sql = postgres({
-  host: DB_SERVICE_SERVICE_HOST, port: parseInt(DB_SERIVCE_SERVICE_PORT)
-})
+const sql = postgres()
 
 const app = new Hono()
 
