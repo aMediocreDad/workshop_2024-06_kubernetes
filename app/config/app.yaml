@@ -21,6 +21,16 @@ spec:
           ports:
             - containerPort: 8000
           env:
+            - name: PGHOST
+              valueFrom:
+                configMapKeyRef:
+                  name: app-config
+                  key: db_host
+            - name: PGPORT
+              valueFrom:
+                configMapKeyRef:
+                  name: app-config
+                  key: db_port
             - name: PGUSERNAME
               valueFrom:
                 configMapKeyRef:
