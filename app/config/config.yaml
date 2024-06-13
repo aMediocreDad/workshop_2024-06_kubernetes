@@ -4,3 +4,5 @@ metadata:
   name: app-config
 data:
   db_usr: postgres
+  db_host: postgres-postgresql.app.svc.cluster.local
+  db_port: "5432"

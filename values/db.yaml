@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/bitnami/charts/main/bitnami/postgresql/values.schema.json
+
+# PostgreSQL database configuration
+# This is not the way we handle passwords in real life
+# For production environments, it is recommended to use some external service to inject the secrets
+auth:
+  postgresPassword: admin1234
+  password: admin1234
+  replicationPassword: admin1234
